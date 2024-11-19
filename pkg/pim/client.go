@@ -106,6 +106,10 @@ func Request(request *PIMRequest, responseModel any) any {
 		Operation: "Request",
 	}
 
+	log := new(bytes.Buffer)
+	json.NewEncoder(log).Encode(request)
+	slog.Info(log.String())
+
 	if request.Payload != nil {
 		payload := new(bytes.Buffer)
 		json.NewEncoder(payload).Encode(request.Payload) //nolint:errcheck
