@@ -8,8 +8,8 @@ import (
 
 	"log/slog"
 
-	"github.com/netr0m/az-pim-cli/pkg/pim"
-	"github.com/netr0m/az-pim-cli/pkg/utils"
+	"github.com/matracey/az-pim-cli/pkg/pim"
+	"github.com/matracey/az-pim-cli/pkg/utils"
 	"github.com/spf13/cobra"
 )
 

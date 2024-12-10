@@ -8,7 +8,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/netr0m/az-pim-cli/pkg/common"
+	"github.com/matracey/az-pim-cli/pkg/common"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 	"github.com/spf13/viper"

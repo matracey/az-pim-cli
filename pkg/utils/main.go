@@ -9,8 +9,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/netr0m/az-pim-cli/pkg/common"
-	"github.com/netr0m/az-pim-cli/pkg/pim"
+	"github.com/matracey/az-pim-cli/pkg/common"
+	"github.com/matracey/az-pim-cli/pkg/pim"
 )
 
 func PrintEligibleResources(resourceAssignments *pim.ResourceAssignmentResponse) {

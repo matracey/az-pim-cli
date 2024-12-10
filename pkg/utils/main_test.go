@@ -6,7 +6,7 @@ package utils
 import (
 	"testing"
 
-	"github.com/netr0m/az-pim-cli/pkg/pim"
+	"github.com/matracey/az-pim-cli/pkg/pim"
 	"github.com/stretchr/testify/assert"
 )
 

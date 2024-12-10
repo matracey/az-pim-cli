@@ -9,7 +9,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/netr0m/az-pim-cli/pkg/common"
+	"github.com/matracey/az-pim-cli/pkg/common"
 )
 
 func IsResourceAssignmentRequestFailed(requestResponse *ResourceAssignmentRequestResponse) bool {
